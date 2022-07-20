@@ -1,0 +1,652 @@
+    <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/grid.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/reponsive.css"> 
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="icon" href="assets/img/logo.png" type="image/gif" sizes="80x80">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>Phim Mới | Phim HD | Xem phim nhanh | Phim VietSub | Thuyết Minh Hay Nhất</title>
+</head>
+
+<body>
+    <div id="main">
+        <div class="overlay hide"></div>
+        <div class="menu_navbar">
+            <div class=" menu_navbar-header">
+                <label for="checkbox" class="label">                         
+                            <i class="fas fa-sun"></i>
+                            <i class="fas fa-moon"></i>
+                                <div class="ball"></div>
+                             </label>
+                <a href="index.html" class="header__logo">
+                    <h1>
+                        <span>W</span>
+                        <span>i</span>
+                        <span>n</span>
+                        <span>P</span>
+                        <span>h</span>
+                        <span>i</span>
+                        <span>m</span>
+                    </h1>
+                </a>
+                <div>
+                    <i class="menu_navbar-close fas fa-times"></i>
+                </div>
+            </div>
+            <div class="menu_navbar-body">
+                <div class="menu_navbar-item">PHIM MỚI</div>
+                <div class="menu_navbar-item">PHIM LẺ</div>
+                <div class="menu_navbar-item">PHIM BỘ</div>
+                <div class="menu_navbar-item">PHIM CHIẾU RẠP
+                </div>
+                <div class="menu_navbar-item-parent"><i class="fas fa-bars"></i>THỂ LOẠI
+                    <div class="row">
+                        <ul class="col l-0 m-4 c-4">
+                            <li class="row">Hành Động</li>
+                            <li class="row">Viễn Tưởng</li>
+                            <li class="row">Phiêu Lưu</li>
+                            <li class="row">Kinh Dị</li>
+                            <li class="row">Tình Cảm</li>
+                        </ul>
+                        <ul class="col l-0 m-4 c-4">
+                            <li class="row">Hài Hước</li>
+                            <li class="row">Võ Thuật</li>
+                            <li class="row">Hoạt Hình</li>
+                            <li class="row">Tội Phạm</li>
+                            <li class="row">Chiến Tranh</li>
+                        </ul>
+                        <ul class="col l-0 m-4 c-4">
+                            <li class="row">Gia Đình</li>
+                            <li class="row">Tâm Lý</li>
+                            <li class="row">Bí Ẩn</li>
+                            <li class="row">Tâm Linh</li>
+                            <li class="row">Xác Sống</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="menu_navbar-footer">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="navbar__scrollY">
+        </div>
+            <header id="header">
+                <i class="menu_navbar-bar fas fa-bars"></i>
+                <div class="body__movie-report">
+                    <div class="body__movie-active-advertisement">
+                        <span>Quảng cáo đâu ra mà tắt</span>
+                        <i class="far fa-smile"></i>
+                    </div>
+                    <div class="body__movie-active-warning">
+                        <span>Cảm ơn bạn đã báo lỗi, chúng tôi sẽ khắc phục trong thời gian sớm nhất</span>
+                        <i class="fas fa-exclamation-triangle"></i>
+                    </div>
+                    <div class="body__movie-active-st-1">
+                        <span>Đánh giá của bạn đã được ghi nhận!</span>
+                        <i class="far fa-meh"></i>
+                    </div>
+                    <div class="body__movie-active-st-2">
+                        <span>Đánh giá của bạn đã được ghi nhận!</span>
+                        <i class="far fa-frown"></i>
+                    </div>
+                    <div class="body__movie-active-st-3">
+                        <span>Đánh giá của bạn đã được ghi nhận!</span>
+                        <i class="far fa-kiss"></i>
+                    </div>
+                    <div class="body__movie-active-st-4">
+                        <span>Đánh giá của bạn đã được ghi nhận!</span>
+                        <i class="far fa-grin"></i>
+                    </div>
+                    <div class="body__movie-active-st-5">
+                        <span>Đánh giá của bạn đã được ghi nhận!</span>
+                        <i class="far fa-grin"></i>
+                    </div>
+                </div>
+                <div class="grid wide">
+                    <div class="row">
+                        <div class="col l-2 m-4 c-os-3 c-6">
+                            <a href="index.html" class="header__logo">
+                                <h1>
+                                    <span>W</span>
+                                    <span>i</span>
+                                    <span>n</span>
+                                    <span>P</span>
+                                    <span>h</span>
+                                    <span>i</span>
+                                    <span>m</span>
+                                </h1>
+                            </a>
+                        </div>
+                        <div class="col l-4 m-6 c-2">
+                            <div class="search-input">
+                                <div class="icon"><i class="fas fa-search"></i></div>
+                                <input class="input-form" type="text" placeholder="Search here...">
+                                <div class="autocom-box">
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col l-6 m-0 c-0">
+                            <div class="row header__menu">
+                                <a id="movie-0" class="header__menu-item">PHIM MỚI</a>
+                                <a id="movie-1" class="header__menu-item">PHIM LẺ</a>
+                                <a id="movie-2" class="header__menu-item">PHIM BỘ</a>
+                                <a id="movie-3" class="header__menu-item ">PHIM CHIẾU RẠP</a>
+                                <div class="header__menu-item-type"><i class="fas fa-bars"></i>THỂ LOẠI</div>
+                                <div class="row header__menu-types">
+                                    <ul class="col l-4">
+                                        <li class="movie-action">Hành Động</li>
+                                        <li class="movie-fiction">Viễn tưởng</li>
+                                        <li class="movie-adventure">Phiêu lưu</li>
+                                        <li class="movie-honor">Kinh dị</li>
+                                        <li class="movie-romance">Tình cảm</li>
+                                    </ul>
+                                    <ul class="col l-4">
+                                        <li class="movie-humor">Hài Hước</li>
+                                        <li class="movie-kungfu">Võ Thuật</li>
+                                        <li class="movie-cartoon">Hoạt hình</li>
+                                        <li class="movie-crimial">Tội phạm</li>
+                                        <li class="movie-war">Chiến Tranh</li>
+                                    </ul>
+                                    <ul class="col l-4">
+                                        <li class="movie-family">Gia đình</li>
+                                        <li class="movie-mentality">Tâm lý</li>
+                                        <li class="movie-mystic">Bí ẩn</li>
+                                        <li class="movie-spirituality">Tâm linh</li>
+                                        <li class="movie-zombie">Xác Sống</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="body__container">
+                        <input hidden type="checkbox" class="checkbox" id="checkbox">
+                        <label for="checkbox" class="label">                         
+                                <i class="fas fa-sun"></i>
+                                <i class="fas fa-moon"></i>
+                                    <div class="ball"></div>
+                                </label>
+                    </div>
+                </div>
+            </header>
+        <div id="body">
+                <div class="body__banner-silder row">
+                    <div class="col l-9 m-12 c-12">
+                        <div class="slider__container">
+                            <div class="slider__image">
+                                <a>
+                                    <img class="slider__item" src="https://genk.mediacdn.vn/2019/11/12/1-1573571042465953988347.jpeg">
+                                </a>
+                                <a>
+                                    <img class="slider__item" src="https://cdn.tgdd.vn/Files/2021/03/30/1339233/review-phim-godzilla-vs-kong-tran-chien-sieu-bom-tan-co-du-lam-mot-phim-man-nhan-202103300915258130.jpg">
+                                </a>
+                                <a>
+                                    <img class="slider__item" src="https://kenh14cdn.com/thumb_w/660/2020/10/28/avatar-fun-facts-01-9ab2da-16038604617232077025052.jpg">
+                                </a>
+                                <a>
+                                    <img class="slider__item" src="https://thuonggiaonline.vn/upload/2020/11/23/Phan_tiep_theo_cua_Black_Panther_se_duoc_khoi_quay_vao_thang_72021.png">
+                                </a>
+                                <a>
+                                    <img class="slider__item" src="https://kenh14cdn.com/2019/7/18/photo-1-15634255353191960343162.jpg">
+                                </a>
+                                <a>
+                                    <img class="slider__item" src="https://s3img.vcdn.vn/123phim/2018/10/venom-review--f1857d.jpg">
+                                </a>
+                                <a>
+                                    <img class="slider__item" src="https://1.bp.blogspot.com/-mOf9Er-JMr4/XTv4GugV9HI/AAAAAAAAAEI/iuJ8TNAo9fcUFLNzKmOjMHq_nOO4KDtbgCLcBGAs/s1600/photo-1-1561952399217113238390.jpg">
+                                </a>
+                                <a>
+                                    <img class="slider__item" src="https://ghienphimz.org/uploads/ZVS5PCardn4U0ipQqxAK26LgRjF1M3Ou_banner_.jpeg?v=1623658919">
+                                </a>
+                                <a>
+                                    <img class="slider__item" src="https://bizweb.dktcdn.net/100/064/189/files/dai-chien-hanh-tinh-khi-banner-1500371705.jpg?v=1507120317089">
+                                </a>
+                                <a>
+                                    <img class="slider__item" src="https://cdn.baogiaothong.vn/upload/images/2021-4/article_social_image/2021-10-24/img-bgt-2021-img-bgt-2021-poster-phim-squid-game-1635075147-width1200height630-1635075410-width1200height630.jpg">
+                                </a>
+                                <div class="slider__dots">
+                                    <div class="dot__item active"></div>
+                                    <div class="dot__item"></div>
+                                    <div class="dot__item"></div>
+                                    <div class="dot__item"></div>
+                                    <div class="dot__item"></div>
+                                    <div class="dot__item"></div>
+                                    <div class="dot__item"></div>
+                                    <div class="dot__item"></div>
+                                    <div class="dot__item"></div>
+                                    <div class="dot__item"></div>
+                                </div>
+                            </div>
+
+                            <div class="slider__button">
+                                <button class="prev__btn"><i class="fas fa-angle-left"></i></button>
+                                <button class="next__btn"><i class="fas fa-angle-right"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col l-3 m-0 c-0">
+                        <div class="row body__list-movie-imdb">
+                            <div class="col l-12 m-6 c-12">
+                                <p class="body__imdb-title">
+                                    <span>I</span>
+                                    <span>M</span>
+                                    <span>D</span>
+                                    <span>b</span>
+                                </p>
+                            </div>
+                        </div>
+                        <div id="body__list-movie-top-10" class="row">
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="row body__item-header">
+                    <div class="col l-2 m-6 c-6">
+                        <div class="body__item-btn-1">
+                            Phim Mới
+                        </div>
+                    </div>
+                    <div class="col l-2 m-6 c-6">
+                        <div class="body__item-btn-2">
+                            Phim lẻ
+                        </div>
+                    </div>
+
+                    <div class="col l-2 m-6 c-6">
+                        <div class="body__item-btn-4">
+                            Phim chiếu rạp
+                        </div>
+                    </div>
+
+                    <div class="col l-2 m-6 c-6">
+                        <div class="body__item-btn-3">
+                            Phim bộ
+                        </div>
+                    </div>
+                </div>
+                <div class="row body__footer">
+                    <div class="col l-12 m-12 c-12">
+                        <h1 class="body__list-movie-title-new row">PHIM MỚI</h1>
+                        <div id="new-movies" class="body__list-movie-new row">
+                        </div>
+
+                        <h1 class="body__list-movie-title-odd row">PHIM LẺ</h1>
+                        <div id="odd-movies" class="body__list-movie-odd row">
+                        </div>
+                        <h1 class="body__list-movie-title-cinema row">PHIM CHIẾU RẠP</h1>
+                        <div id="cinema-movies" class="body__list-movie-cinema row">
+
+                        </div>
+                        <h1 class="body__list-movie-title-set row">PHIM BỘ</h1>
+                        <div id="set-movies" class="body__list-movie-set row">
+
+                        </div>
+
+                        <h1 class="body__list-movie-title-action row ">PHIM HÀNH ĐỘNG</h1>
+                        <div id="action-movies" class="body__list-movie-action row ">
+
+                        </div>
+                        <h1 class="body__list-movie-title-fiction row ">PHIM VIỄN TƯỞNG</h1>
+                        <div id="fiction-movies" class="body__list-movie-fiction row ">
+
+                        </div>
+                        <h1 class="body__list-movie-title-adventure row ">PHIM PHIÊU LƯU</h1>
+                        <div id="adventure-movies" class="body__list-movie-adventure row ">
+
+
+                        </div>
+                        <h1 class="body__list-movie-title-honor row ">PHIM KINH DỊ</h1>
+                        <div id="honor-movies" class="body__list-movie-honor row ">
+
+                        </div>
+                        <h1 class="body__list-movie-title-romance row ">PHIM TÌNH CẢM</h1>
+                        <div id="romance-movies" class="body__list-movie-romance row ">
+
+                        </div>
+
+                        <h1 class="body__list-movie-title-humor row">PHIM HÀI HƯỚC</h1>
+                        <div id="humor-movies" class="body__list-movie-humor row ">
+
+                        </div>
+
+                        <h1 class="body__list-movie-title-kungfu row">PHIM VÕ THUẬT</h1>
+                        <div id="kungfu-movies" class="body__list-movie-kungfu row ">
+
+                        </div>
+
+                        <h1 class="body__list-movie-title-cartoon row">PHIM HOẠT HÌNH</h1>
+                        <div id="cartoon-movies" class="body__list-movie-cartoon row ">
+
+                        </div>
+
+                        <h1 class="body__list-movie-title-crimial row">PHIM TỘI PHẠM</h1>
+                        <div id="crimial-movies" class="body__list-movie-crimial row ">
+
+                        </div>
+
+                        <h1 class="body__list-movie-title-war row">PHIM CHIẾN TRANH</h1>
+                        <div id="war-movies" class="body__list-movie-war row ">
+
+                        </div>
+
+                        <h1 class="body__list-movie-title-family row">PHIM GIA ĐÌNH</h1>
+                        <div id="family-movies" class="body__list-movie-family row ">
+
+                        </div>
+
+                        <h1 class="body__list-movie-title-mentality row">PHIM TÂM LÝ</h1>
+                        <div id="mentality-movies" class="body__list-movie-mentality row ">
+
+                        </div>
+
+                        <h1 class="body__list-movie-title-mystic row">PHIM BÍ ẨN</h1>
+                        <div id="mystic-movies" class="body__list-movie-mystic row ">
+
+                        </div>
+
+                        <h1 class="body__list-movie-title-spirituality row">PHIM TÂM LINH</h1>
+                        <div id="spirituality-movies" class="body__list-movie-spirituality row ">
+
+                        </div>
+
+                        <h1 class="body__list-movie-title-zombie row">PHIM XÁC SỐNG</h1>
+                        <div id="zombie-movies" class="body__list-movie-zombie row ">
+
+                        </div>
+
+                        <h1 class="body__list-movie-title-search row">DANH SÁCH PHIM TÌM KIẾM</h1>
+                        <div id="search-movies" class="body__list-movie-search row ">
+
+                        </div>
+
+
+                    </div>
+
+
+
+                </div>
+
+            </div>
+            <div class="row body__bottom">
+                <div class="col l-2 m-2 c-4">
+                    <div class="body__contact">
+                        <a href="https://www.facebook.com/profile.php?id=100072477978419&show_switched_toast=true&show_switched_tooltip=true" class="header__logo">
+                            <i class="fab fa-facebook-f"></i>
+                            <h1 id="social-1">
+                                <span>F</span>
+                                <span>a</span>
+                                <span>c</span>
+                                <span>e</span>
+                                <span>b</span>
+                                <span>o</span>
+                                <span>o</span>
+                                <span>k</span>
+                            </h1>
+                        </a>
+                    </div>
+                </div>
+                <div class="col l-2 m-2 c-4">
+                    <div class="body__contact">
+                        <a href="https://www.instagram.com/" class="header__logo">
+                            <i class="fab fa-instagram"></i>
+                            <h1 id="social-2">
+                                <span>I</span>
+                                <span>n</span>
+                                <span>s</span>
+                                <span>t</span>
+                                <span>a</span>
+                                <span>g</span>
+                                <span>r</span>
+                                <span>a</span>
+                                <span>m</span>
+                            </h1>
+                        </a>
+                    </div>
+                </div>
+                <div class="col l-2 m-2 c-4">
+                    <div class="body__contact">
+                        <a href="https://twitter.com/chjcago2001" class="header__logo">
+                            <i class="fab fa-twitter"></i>
+                            <h1 id="social-3">
+                                <span>T</span>
+                                <span>w</span>
+                                <span>i</span>
+                                <span>t</span>
+                                <span>t</span>
+                                <span>e</span>
+                                <span>r</span>
+                            </h1>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div id="body__watch">
+            <div class="grid">
+                <div class="body__banner">
+                    <img class="body__banner-img" src="https://i.ytimg.com/vi/wqLx0HuNX0M/maxresdefault.jpg">
+                </div>
+                <div id="movie-video" class="row body__movie-video">
+                    <iframe class="body__moving" style="overflow-y: hidden" frameborder="0" allowfullscreen></iframe>
+
+                    <div class="body__movie-active-advertisement">
+                        <span>Quảng cáo đâu ra mà tắt</span>
+                        <i class="far fa-smile"></i>
+                    </div>
+                    <div class="body__movie-active-warning">
+                        <span>Cảm ơn bạn đã báo lỗi, chúng tôi sẽ khắc phục trong thời gian sớm nhất</span>
+                        <i class="fas fa-exclamation-triangle"></i>
+                    </div>
+                    <div class="body__movie-active-st-1">
+                        <span>Đánh giá của bạn đã được ghi nhận!</span>
+                        <i class="far fa-meh"></i>
+                    </div>
+                    <div class="body__movie-active-st-2">
+                        <span>Đánh giá của bạn đã được ghi nhận!</span>
+                        <i class="far fa-frown"></i>
+                    </div>
+                    <div class="body__movie-active-st-3">
+                        <span>Đánh giá của bạn đã được ghi nhận!</span>
+                        <i class="far fa-kiss"></i>
+                    </div>
+                    <div class="body__movie-active-st-4">
+                        <span>Đánh giá của bạn đã được ghi nhận!</span>
+                        <i class="far fa-grin"></i>
+                    </div>
+                    <div class="body__movie-active-st-5">
+                        <span>Đánh giá của bạn đã được ghi nhận!</span>
+                        <i class="far fa-grin"></i>
+                    </div>
+
+                    <div class="col l-4 m-12 c-12 ">
+                        <div class="body__movie-status">
+                            <div class="body__movie-heading">
+                                <div class="point-user">Đánh giá phim</div>
+                                <div class="body__movie-point-star">
+                                    <a title="Quá hay" class="fas fa-star star-5"></a>
+                                    <a title="Hay" class="fas fa-star star-4"></a>
+                                    <a title="Bình thường" class="fas fa-star star-3"></a>
+                                    <a title="Dở" class="fas fa-star star-2"></a>
+                                    <a title="Quá dở" class="fas fa-star star-1"></a>
+                                </div>
+                            </div>
+                            <div class="body__movie-midle">
+                                <ul class="row body__movie-parts">
+
+                                </ul>
+                            </div>
+                            <div class="body__movie-footer">
+                                <button class="body__movie-advertisement-btn">
+                                    <i class="fas fa-ad"></i>   
+                                    <span>Tắt QC</span>
+                                   </button>
+                                <button class="body__movie-warning-btn">
+                            <i class="fas fa-exclamation-triangle"></i>
+                            <span>Báo Lỗi</span>
+                           </button>
+                                <button class="body__movie-viewer-btn"> 
+                               <i class="fas fa-eye"></i>                      
+                               <span></span>
+                           </button>
+                                <button class="body__movie-video-btn">
+                            <i class="fas fa-lightbulb "></i>
+                            <span>Tắt đèn</span>
+                           </button>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="grid wide">
+                    <div class="row body__intro-main">
+                        <div class="col l-3 m-3">
+                            <img class="body__intro-img">
+                        </div>
+                        <div class="col l-4 m-4 m-os-2 c-10 c-os-2">
+                            <div class="row">
+                                <p class="body__intro-title"></p>
+                                <div class="body__list-movie-tag" href="#"></div>
+                                <span class="body__list-movie-tag"></span>
+                            </div>
+                            <div class="body__intro-watch-movie">
+                                <div class="body__intro-btn-trailer">
+                                    Trailer
+                                </div>
+                                <div class="body__intro-btn-movie">
+                                    Xem phim
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col c-10">
+                                    <p class="body__intro-sub-title"></p>
+                                    <p class="body__intro-sub-title"></p>
+                                    <p class="body__intro-sub-title"></p>
+                                    <p class="body__intro-sub-title"></p>
+                                    <p class="body__intro-sub-title"></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="body__intro-footer">
+                <div class="grid wide">
+                    <div class="row body__intro-desc-center">
+                        <div class="col l-10 l-os-1 m-12 c-12 body__intro-desc-main">
+                            <h1 id="description" class="body__list-movie-title">Thông tin</h1>
+                            <p class="body__intro-desc">
+
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="row body__movie-trailer">
+                        <div class="col l-10 l-os-1 m-12 c-12">
+                            <h1 id="offical-trailer" class="body__list-movie-title">Official trailer:</h1>
+                            <iframe class="body__trailer-video" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                    </div>
+
+                    <div class="col l-8 m-12 c-12 body__comment">
+                        <div class="row">
+                            <div class="col l-12 m-12 c-12">
+                                <h1 class="body__list-movie-title">Bình luận về phim:</h1>
+                                <span class="body__list-movie-warning">
+                                Lưu ý các bạn không nên nhấp vào các đường link ở phần bình luận, kẻ gian có thể đưa virus vào thiết bị hoặc hack mất facebook của các bạn.
+                            </span>
+                            </div>
+                        </div>
+                        <div class="facebook-comments">
+                            <iframe class="plugin-comment" data-testid="fb:comments Facebook Social Plugin" title="fb:comments Facebook Social Plugin" frameborder="0" allowtransparency="true" allowfullscreen="true" allow="encrypted-media" scrolling="yes" frameborder="0" scrollingstyle="border: none;"></iframe></span>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="body__bottom">
+                    <div class="col l-2 m-2 c-4">
+                        <div class="body__contact">
+                            <a href="https://www.facebook.com/profile.php?id=100072477978419&show_switched_toast=true&show_switched_tooltip=true" class="header__logo">
+                                <i class="fab fa-facebook-f"></i>
+                                <h1 id="social-1">
+                                    <span>F</span>
+                                    <span>a</span>
+                                    <span>c</span>
+                                    <span>e</span>
+                                    <span>b</span>
+                                    <span>o</span>
+                                    <span>o</span>
+                                    <span>k</span>
+                                </h1>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col l-2 m-2 c-4">
+                        <div class="body__contact">
+                            <a href="https://www.instagram.com/" class="header__logo">
+                                <i class="fab fa-instagram"></i>
+                                <h1 id="social-2">
+                                    <span>I</span>
+                                    <span>n</span>
+                                    <span>s</span>
+                                    <span>t</span>
+                                    <span>a</span>
+                                    <span>g</span>
+                                    <span>r</span>
+                                    <span>a</span>
+                                    <span>m</span>
+                                </h1>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col l-2 m-2 c-4">
+                        <div class="body__contact">
+                            <a href="#" class="header__logo">
+                                <i class="fab fa-twitter"></i>
+                                <h1 id="social-3">
+                                    <span>T</span>
+                                    <span>w</span>
+                                    <span>i</span>
+                                    <span>t</span>
+                                    <span>t</span>
+                                    <span>e</span>
+                                    <span>r</span>
+                                </h1>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <footer id="footer">
+                <p class="footer__title">Copyright © 2021 Winphim.net. All Rights reserved.</p>
+            </footer>
+        </div>
+    </div>
+</body>
+<script type="text/javascript" src="assets/js/main.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+</html>

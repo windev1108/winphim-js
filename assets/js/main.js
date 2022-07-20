@@ -156,7 +156,7 @@ const webMovies = {
             idType: '3',
             type: 'Phim Hành Dộng ',
             imgMain: 'https://media.vov.vn/sites/default/files/styles/large/public/2020-12/image025.png',
-            imgIntro: 'https://i3.wp.com/image.bongngocdn.com/upload/bg-nu-than-chien-binh-2020.jpg',
+            imgIntro: 'https://phunuvietnam.mediacdn.vn/zoom/660_412/179072216278405120/2020/11/19/ww-teaser-2-1x1-16057768745151606394089-122-0-1332-1936-crop-16057768808771350906023.jpg',
             srcTrailer: 'XW2E2Fnh52w',
             directors: 'Patty Jenkins',
             duration: 142,
@@ -296,7 +296,7 @@ const webMovies = {
             idType: '3-hot',
             type: 'Phim Viễn Tưởng, Hành Động',
             imgMain: 'https://khenphim.com/wp-content/uploads/2018/02/Black-Panther-1.jpg',
-            imgIntro: 'https://thuonggiaonline.vn/upload/2020/11/23/Phan_tiep_theo_cua_Black_Panther_se_duoc_khoi_quay_vao_thang_72021.png',
+            imgIntro: 'https://static1.srcdn.com/wordpress/wp-content/uploads/2018/02/Black-Panther-logo.jpg',
             srcTrailer: 'xjDjIWPwcPU',
             directors: ' Ryan Cooglernn',
             duration: 134,
@@ -679,7 +679,7 @@ const webMovies = {
             idType: '1-hot',
             type: 'Phim Kinh Dị, Hành Động,Tâm Lý',
             imgMain: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNw6d2k_But-wsajFZjxMHKpuJuuba0jZ6TnI8aB-Gx0caU6ecKG_GqTOtfkYgsE29jdk&usqp=CAU',
-            imgIntro: 'https://ghienphimz.org/uploads/ZVS5PCardn4U0ipQqxAK26LgRjF1M3Ou_banner_.jpeg?v=1623658919',
+            imgIntro: 'https://bigdata-vn.com/wp-content/uploads/2021/10/Review-phim-Vung-dat-cam-lang-A-Quiet-Place.png',
             srcTrailer: 'BpdDN9d9Jio',
             directors: 'John Krasinski',
             duration: 103,
@@ -759,7 +759,7 @@ const webMovies = {
             idType: '1',
             type: 'Phim Viễn Tưởng, Hành Động',
             imgMain: 'https://cdn01.heobenho.xyz/mov/08-2020/20202845261f-4a42-4450-9e6a-5dbfd52010b3.jpg',
-            imgIntro: 'https://phimthuyetminh.ophimhay.com/file/banner-phim/cong-vien-khung-long-4-thuyet-minh-jurassic-world.jpg',
+            imgIntro: 'https://media-cdn-v2.laodong.vn/storage/newsportal/2018/6/13/612627/2.png',
             srcTrailer: 'vn9mMeWcgoM',
             directors: 'J.A. Bayona',
             duration: 128,
@@ -840,7 +840,7 @@ const webMovies = {
             idType: '2',
             type: 'Phim Kinh Dị, Xác Sống, Hành Động,',
             imgMain: 'https://i1.wp.com/images.phimno1.com/images/2021/11/11/The-Walking-Dead-season-11.md.jpg',
-            imgIntro: 'https://gphimtv.com/wp-content/uploads/2021/12/The-Walking-Dead-Season-11-2021.jpeg',
+            imgIntro: 'https://static.ssphim.net/static/5fe2d564b3fa6403ffa11d1c/6119ee560befae37798767af_dan-cast-chinh-trong-xac-song-phan-11.jpg',
             srcTrailer: 'qwOWJ8pPgk8',
             directors: 'Alexs Stadermann',
             duration: 24,
@@ -879,8 +879,8 @@ const webMovies = {
             src: [9789, 9790, 9791, 9792, 9793],
             idType: '2',
             type: 'Phim Hành Động, Phiêu Lưu, Viễn Tưởng',
-            imgMain: 'https://image.bongngocdn.com/upload/poster-lupin-phan-1-2021.jpg',
-            imgIntro: 'https://i3.wp.com/image.bongngocdn.com/upload/bg-lupin-phan-1-2021.jpg',
+            imgMain: 'https://flxt.tmsimg.com/assets/p19204904_b_v8_aa.jpg',
+            imgIntro: 'https://www.gocdienanh.com/wp-content/uploads/2021/01/review-phim-lupin-netflix-1.jpg',
             srcTrailer: 'oqxAJKy0ii4',
             directors: 'Kate Herron',
             duration: 5,
@@ -1094,7 +1094,7 @@ const webMovies = {
                 movieParent.innerHTML = htmls.join('');
                 _$('.body__movie-midle').appendChild(movieParent)
             }
-        }, 1000)
+        }, 200)
 
     },
     handleTabParts: function(id, i) {
@@ -1982,7 +1982,7 @@ function moviesNew() {
         _$('.body__list-movie-crimial').style.display = 'none'
         _$('.body__list-movie-war').style.display = 'none'
         _$('.body__list-movie-family').style.display = 'none'
-    }, 500)
+    }, 100)
     _$('.body__list-movie-mentality').style.display = 'none'
     _$('.body__list-movie-mystic').style.display = 'none'
     _$('.body__list-movie-spirituality').style.display = 'none'
@@ -2073,7 +2073,7 @@ function moviesOdd() {
         _$('.body__list-movie-crimial').style.display = 'none'
         _$('.body__list-movie-war').style.display = 'none'
         _$('.body__list-movie-family').style.display = 'none'
-    }, 500)
+    }, 100)
     _$('.body__list-movie-mentality').style.display = 'none'
     _$('.body__list-movie-mystic').style.display = 'none'
     _$('.body__list-movie-spirituality').style.display = 'none'
@@ -2163,7 +2163,7 @@ function moviesSet() {
         _$('.body__list-movie-crimial').style.display = 'none'
         _$('.body__list-movie-war').style.display = 'none'
         _$('.body__list-movie-family').style.display = 'none'
-    }, 500)
+    }, 100)
     _$('.body__list-movie-mentality').style.display = 'none'
     _$('.body__list-movie-mystic').style.display = 'none'
     _$('.body__list-movie-spirituality').style.display = 'none'
@@ -2253,7 +2253,7 @@ function moviesCinema() {
         _$('.body__list-movie-crimial').style.display = 'none'
         _$('.body__list-movie-war').style.display = 'none'
         _$('.body__list-movie-family').style.display = 'none'
-    }, 500)
+    }, 100)
     _$('.body__list-movie-mentality').style.display = 'none'
     _$('.body__list-movie-mystic').style.display = 'none'
     _$('.body__list-movie-spirituality').style.display = 'none'
@@ -2348,7 +2348,7 @@ function moviesAction() {
         _$('.body__list-movie-spirituality').style.display = 'none'
         _$('.body__list-movie-zombie').style.display = 'none'
         _$('.body__list-movie-search').style.display = 'none'
-    }, 500)
+    }, 100)
 }
 
 function moviesFiction() {
@@ -2438,7 +2438,7 @@ function moviesFiction() {
         _$('.body__list-movie-spirituality').style.display = 'none'
         _$('.body__list-movie-zombie').style.display = 'none'
         _$('.body__list-movie-search').style.display = 'none'
-    }, 500)
+    }, 100)
 
 }
 
@@ -2529,7 +2529,7 @@ function moviesAdventure() {
         _$('.body__list-movie-spirituality').style.display = 'none'
         _$('.body__list-movie-zombie').style.display = 'none'
         _$('.body__list-movie-search').style.display = 'none'
-    }, 500)
+    }, 100)
 }
 
 function moviesHonor() {
@@ -2618,7 +2618,7 @@ function moviesHonor() {
         _$('.body__list-movie-spirituality').style.display = 'none'
         _$('.body__list-movie-zombie').style.display = 'none'
         _$('.body__list-movie-search').style.display = 'none'
-    }, 500)
+    }, 100)
 }
 
 function moviesRomance() {
@@ -2707,7 +2707,7 @@ function moviesRomance() {
         _$('.body__list-movie-spirituality').style.display = 'none'
         _$('.body__list-movie-zombie').style.display = 'none'
         _$('.body__list-movie-search').style.display = 'none'
-    }, 500)
+    }, 100)
 
 }
 
@@ -2797,7 +2797,7 @@ function moviesHumor() {
         _$('.body__list-movie-spirituality').style.display = 'none'
         _$('.body__list-movie-zombie').style.display = 'none'
         _$('.body__list-movie-search').style.display = 'none'
-    }, 500)
+    }, 100)
 
 }
 
@@ -2887,7 +2887,7 @@ function moviesKungfu() {
         _$('.body__list-movie-spirituality').style.display = 'none'
         _$('.body__list-movie-zombie').style.display = 'none'
         _$('.body__list-movie-search').style.display = 'none'
-    }, 500)
+    }, 100)
 
 }
 
@@ -2977,7 +2977,7 @@ function moviesCartoon() {
         _$('.body__list-movie-spirituality').style.display = 'none'
         _$('.body__list-movie-zombie').style.display = 'none'
         _$('.body__list-movie-search').style.display = 'none'
-    }, 500)
+    }, 100)
 }
 
 function moviesCrimial() {
@@ -3066,7 +3066,7 @@ function moviesCrimial() {
         _$('.body__list-movie-spirituality').style.display = 'none'
         _$('.body__list-movie-zombie').style.display = 'none'
         _$('.body__list-movie-search').style.display = 'none'
-    }, 500)
+    }, 100)
 }
 
 function moviesWar() {
@@ -3155,7 +3155,7 @@ function moviesWar() {
         _$('.body__list-movie-spirituality').style.display = 'none'
         _$('.body__list-movie-zombie').style.display = 'none'
         _$('.body__list-movie-search').style.display = 'none'
-    }, 500)
+    }, 100)
 }
 
 function moviesFamily() {
@@ -3244,7 +3244,7 @@ function moviesFamily() {
         _$('.body__list-movie-spirituality').style.display = 'none'
         _$('.body__list-movie-zombie').style.display = 'none'
         _$('.body__list-movie-search').style.display = 'none'
-    }, 500)
+    }, 100)
 
 }
 
@@ -3334,7 +3334,7 @@ function moviesMentality() {
         _$('.body__list-movie-spirituality').style.display = 'none'
         _$('.body__list-movie-zombie').style.display = 'none'
         _$('.body__list-movie-search').style.display = 'none'
-    }, 500)
+    }, 100)
 
 }
 
@@ -3424,7 +3424,7 @@ function moviesMystic() {
         _$('.body__list-movie-spirituality').style.display = 'none'
         _$('.body__list-movie-zombie').style.display = 'none'
         _$('.body__list-movie-search').style.display = 'none'
-    }, 500)
+    }, 100)
 
 }
 
@@ -3514,7 +3514,7 @@ function moviesSpirituality() {
         _$('.body__list-movie-spirituality').style.display = 'flex'
         _$('.body__list-movie-zombie').style.display = 'none'
         _$('.body__list-movie-search').style.display = 'none'
-    }, 500)
+    }, 100)
 }
 
 function moviesZombie() {
@@ -3603,7 +3603,7 @@ function moviesZombie() {
         _$('.body__list-movie-zombie').style.display = 'flex'
         _$('.body__list-movie-search').style.display = 'none'
 
-    }, 500)
+    }, 100)
 }
 
 
@@ -3674,7 +3674,7 @@ function moviesSearch() {
         _$('.body__list-movie-zombie').style.display = 'none'
         _$('.body__list-movie-search').style.display = 'flex'
 
-    }, 500)
+    }, 100)
 }
 
 // slider auto

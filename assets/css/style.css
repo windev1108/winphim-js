@@ -1345,8 +1345,9 @@ body.light .body__contact .header__logo h1 span {
 }
 
 .autocom-box img {
-    width: 50px;
-    height: 60px;
+    width: 60px;
+    height: 70px;
+    object-fit: cover;
 }
 
 .body__list-box-input .body__list-input-movie-name {
@@ -1370,6 +1371,10 @@ body.light .body__contact .header__logo h1 span {
     text-overflow: ellipsis;
 }
 
+.body__list-sub-menu-contain{
+   display: flex;
+   justify-content: space-between;
+}
 .body__list-box-input .body__list-input-movie-name,
 .body__list-box-input .body__list-movie-subname {
     display: block;
@@ -1403,6 +1408,7 @@ body.light .body__contact .header__logo h1 span {
 .body__list-box-input {
     text-decoration: none;
     cursor: pointer;
+    display: flex;
 }
 
 .autocom-box.active .body__list-box-input:hover {

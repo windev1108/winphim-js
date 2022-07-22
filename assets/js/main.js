@@ -316,7 +316,7 @@ const webMovies = {
             idType: '1',
             type: 'Phim Kinh Dị, Xác Sống, Hành Động',
             star: 'https://i1.wp.com/saisa.nl/wp-content/uploads/2020/08/pngegg.png?w=1102&ssl=1',
-            imgMain: 'https://image.bongngocdn.com/upload/poster-vuong-trieu-xac-song-ashin-phuong-bac-2021.jpg',
+            imgMain: 'https://m.media-amazon.com/images/M/MV5BNTBlZmE4YzItNTY5Mi00NmIxLTlhZTAtOWIxNjFlNTMzNmI1XkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_.jpg',
             imgIntro: 'https://kenh14cdn.com/thumb_w/660/203336854389633024/2021/7/25/ngang-2-1627211385169838330645.png',
             srcTrailer: '4l-yByZpaaM',
             directors: ' Kim Sung Hoon',
@@ -497,7 +497,7 @@ const webMovies = {
             src: 'https://player.phimno1.com/vip?list=1&id=2736&url=4vm9vfiuh89XAN7@F1KXt8UFkKxSXeqIHe1Q5xFepezDXrFS9HCWMiOBrk5lniiyXU2zMNgtjKPA0eDkQHgbmZmroaMXFlogVL1fmMORqAz0G7IYpD/z5RMyTAPRTA7CWg==&sub=',
             idType: '3',
             type: 'Phim Viễn Tưởng, Hành Động, Chiến Tranh',
-            imgMain: 'https://i3.wp.com/image.bongngo.com/upload/poster-biet-doi-sieu-anh-hung-3-cuoc-chien-vo-cuc-2018.jpg',
+            imgMain: 'https://upload.wikimedia.org/wikipedia/vi/e/e8/Avengers-Infinity_War-Official-Poster.jpg',
             imgIntro: 'https://www.elleman.vn/wp-content/uploads/2018/04/25/Avengers-Infinity-War-ELLE-Man-featured-01-01.jpg',
             srcTrailer: 'O4XbKp6kN2k',
             directors: 'Anthony Russo, Joe Russo',
@@ -899,7 +899,7 @@ const webMovies = {
             src: [9175, 9176, 9177, 9178, 9179, 9344],
             idType: '2',
             type: 'Phim Hành Động, Phiêu Lưu, Viễn Tưởng',
-            imgMain: 'https://image.bongngocdn.com/upload/poster-loki-marvel-2021.jpg',
+            imgMain: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMIK3OYEfgUxQUIh5zJ9a_hSy07zK9m9HUNL929OLm1BK-Ie7Zi2wiuQw2JelokQ5e5Iw&usqp=CAU',
             imgIntro: 'https://koicine.com/wp-content/uploads/2021/02/Loki-Season-1.jpg',
             srcTrailer: 'lDToq9SuEmI',
             directors: 'Kate Herron',
@@ -1006,9 +1006,11 @@ const webMovies = {
                 })
                 const htmls = emptyArray.map(movie => {
                     return `    
-                     <a class='body__list-box-input' onclick='_this.handleSetupForm(${movie.id})'>              
+                     <a class='body__list-box-input' onclick='_this.handleSetupForm(${movie.id})'> 
+                      <div class='body__list-sub-menu-contain'>
                       <img class='body__list-sub-menu-img' src='${movie.
                         imgMain}'/> 
+                      </div>             
                       <div>             
                        <span class='body__list-input-movie-name'>${movie.name}</span> 
                        <span class='body__list-movie-subname'>${movie.subname}</span> 

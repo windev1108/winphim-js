@@ -157,6 +157,7 @@ body {
 
 #body {
     overflow: hidden;
+    padding: 0 18px;
 }
 
 #body.hide {
